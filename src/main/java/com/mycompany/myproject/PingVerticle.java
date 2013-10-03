@@ -42,6 +42,8 @@ public class PingVerticle extends Verticle {
       }
     });
 
+    logger.debug("wefwf");
+
     logger.info("PingVerticle started");
 
     logger.info("Config value foo is " + container.config().getString("foo"));
